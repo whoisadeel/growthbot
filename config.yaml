@@ -1,0 +1,103 @@
+# =========================================================
+# Noidea Growth Bot - Configuration
+# Edit this file (or use the Settings page in the app) to
+# customize brand info, target locations, services, etc.
+# No secrets should be committed here.
+# =========================================================
+
+brand:
+  name: "Noidea Solutions"
+  website: "https://noidea.solutions"
+  contact_page: "https://noidea.solutions/contact"
+  blog_url: "https://noidea.solutions/blog"
+  primary_cta: "Book a free consultation"
+  tone: "Professional, practical, direct, conversion-focused, and helpful."
+
+location:
+  main_city: "Sacramento"
+  main_state: "California"
+  target_locations:
+    - "Sacramento"
+    - "Roseville"
+    - "Folsom"
+    - "Elk Grove"
+    - "Davis"
+    - "Rocklin"
+    - "Citrus Heights"
+    - "Rancho Cordova"
+    - "California"
+
+services:
+  - name: "Website Design & Development"
+    slug: "web-design"
+    url: "/services/web-design"
+    keywords: ["web design", "website design", "custom website"]
+  - name: "eCommerce Website Development"
+    slug: "ecommerce"
+    url: "/services/ecommerce"
+    keywords: ["ecommerce website", "shopify development", "online store"]
+  - name: "Digital Marketing"
+    slug: "digital-marketing"
+    url: "/services/digital-marketing"
+    keywords: ["digital marketing", "online marketing", "marketing agency"]
+  - name: "SEO"
+    slug: "seo"
+    url: "/services/seo"
+    keywords: ["seo services", "search engine optimization", "local seo"]
+  - name: "SaaS Development"
+    slug: "saas-development"
+    url: "/services/saas-development"
+    keywords: ["saas development", "custom software", "web application"]
+  - name: "Website Maintenance"
+    slug: "website-maintenance"
+    url: "/services/website-maintenance"
+    keywords: ["website maintenance", "site care", "website support"]
+  - name: "AI Automation"
+    slug: "ai-automation"
+    url: "/services/ai-automation"
+    keywords: ["ai automation", "business automation", "workflow automation"]
+  - name: "Business Tools"
+    slug: "business-tools"
+    url: "/services/business-tools"
+    keywords: ["business tools", "internal tools", "operations software"]
+
+target_customers:
+  - "Small businesses"
+  - "Local service businesses"
+  - "eCommerce businesses"
+  - "Startups"
+  - "Contractors"
+  - "Clinics"
+  - "Restaurants"
+  - "Real estate businesses"
+  - "Consultants"
+  - "Local stores"
+
+crawler:
+  user_agent: "NoideaGrowthBot/1.0 (+local; respects robots.txt)"
+  max_pages: 60
+  request_delay_seconds: 1.0
+  request_timeout: 15
+  respect_robots: true
+
+seo:
+  title_min: 30
+  title_max: 60
+  meta_desc_min: 70
+  meta_desc_max: 160
+  thin_content_threshold: 300
+
+# Optional integrations - leave blank unless you wire them up.
+integrations:
+  wordpress:
+    enabled: false
+    base_url: ""
+    username: ""
+    app_password_env: "WP_APP_PASSWORD"   # env var name, NOT the password
+  google:
+    search_console_enabled: false
+    analytics_enabled: false
+  local_ai:
+    enabled: false
+    provider: "ollama"     # 'ollama' | 'llamacpp' | 'sentence-transformers'
+    model: ""

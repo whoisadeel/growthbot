@@ -1,0 +1,33 @@
+# Noidea Growth Bot - dependencies
+# Core
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.24
+pyyaml>=6.0
+
+# Crawling / parsing
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+urllib3>=2.0
+
+# Templating / reports
+Jinja2>=3.1
+markdown>=3.5
+
+# Traditional ML (used by everything in ml/ and seo/internal_links.py)
+scikit-learn>=1.3
+
+# Charts (Streamlit auto-uses altair under the hood)
+altair>=5.0
+
+# PDF export (best-effort; pure Python, no system libs needed)
+reportlab>=4.0
+
+# -------- OPTIONAL --------
+# Uncomment to enable semantic similarity (internal links, duplicates, clustering)
+# via a small local sentence-transformer model. ~80MB on first download.
+# sentence-transformers>=2.6
+
+# Uncomment for JS-heavy crawling
+# playwright>=1.42

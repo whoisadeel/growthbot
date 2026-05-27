@@ -1,0 +1,5 @@
+cd noidea-growth-bot
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python seed_example_data.py     # optional, populates example data
+streamlit run app.py

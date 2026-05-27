@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Website Design & Development in Sacramento",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Noidea Solutions",
+        "areaServed": [
+          "Sacramento",
+          "California"
+        ]
+      },
+      "areaServed": [
+        "Sacramento",
+        "California"
+      ],
+      "description": "Website Design & Development for Small businesses in Sacramento, California. Noidea Solutions delivers conversion-focused work with no long-term contracts. Book"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does website design & development cost in Sacramento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most projects fall into clear pricing tiers. We send a fixed-scope quote after a short discovery call."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a typical website design & development project take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually 2\u20138 weeks depending on scope, with weekly status updates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you only work with businesses in Sacramento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No \u2014 we work across California and remotely. Local clients just get faster in-person availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I already have a website / system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We start with an audit and recommend the smallest change that delivers the biggest result."
+          }
+        }
+      ]
+    }
+  ]
+}

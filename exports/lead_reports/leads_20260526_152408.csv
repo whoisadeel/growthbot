@@ -1,0 +1,16 @@
+id,name,email,phone,business_name,service_needed,budget,timeline,status,score,classification,source,created_at
+1,Maria Lopez,maria@bayhillclinic.com,+1-916-555-0101,Bayhill Clinic,Website Redesign + SEO,"$5,000",within 30 days,New,100,hot,contact-form,2026-05-26 15:24:08
+3,Aisha Rahman,aisha@northstarrealty.io,+1-916-555-0144,Northstar Realty,AI Automation for lead routing,$3k,this month,Qualified,100,hot,referral,2026-05-26 15:24:08
+4,Carlos T,carlos@tastypasta.com,9165550130,Tasty Pasta,Website Design,$4500,6 weeks,Won,100,hot,form,2026-05-26 15:24:08
+5,Dana P,dana@pixelco.io,9165550131,Pixel Co,Digital Marketing,$2500,ASAP,Won,100,hot,form,2026-05-26 15:24:08
+6,Eli K,eli@renorealty.com,9165550132,Reno Realty,SEO,$1500,60 days,Won,100,hot,referral,2026-05-26 15:24:08
+7,Fei W,fei@sagespa.com,9165550133,Sage Spa,Website Redesign,$6000,2 months,Won,100,hot,form,2026-05-26 15:24:08
+8,Grace M,grace@northbloom.com,9165550134,Northbloom,SEO,$2000,30 days,Won,100,hot,form,2026-05-26 15:24:08
+9,Hugo B,hugo@bayareacontractors.com,9165550135,Bay Area Contractors,Web Design,$3500,45 days,Won,100,hot,form,2026-05-26 15:24:08
+11,Sam Q,sam@example.com,,,SEO,$50,next year,Lost,80,hot,csv,2026-05-26 15:24:08
+12,Test U,tu@example.com,,,Website,,,Lost,65,warm,csv,2026-05-26 15:24:08
+15,Maybe X,mx@example.com,,,Maintenance,,someday,Lost,60,warm,csv,2026-05-26 15:24:08
+2,John Patel,,,Patel Plumbing,Website Maintenance,,no rush,New,48,cold,csv,2026-05-26 15:24:08
+13,Curious LLC,,,Curious LLC,Anything,,,Lost,33,cold,csv,2026-05-26 15:24:08
+10,Anon One,,,,Web Design,,whenever,Lost,30,cold,csv,2026-05-26 15:24:08
+14,Rev R,,,,,,,Lost,30,cold,csv,2026-05-26 15:24:08

@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "AI Receptionist for Dental & Med Clinics",
+      "description": "24/7 AI phone + SMS receptionist that books appointments while you sleep.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Noidea Solutions",
+        "areaServed": [
+          "Sacramento",
+          "California"
+        ]
+      },
+      "areaServed": [
+        "Sacramento",
+        "California"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 2500,
+        "priceCurrency": "USD",
+        "description": "$2,500 setup + $399/mo",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+}

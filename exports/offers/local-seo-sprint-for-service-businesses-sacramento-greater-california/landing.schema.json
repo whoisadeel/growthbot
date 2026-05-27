@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Local SEO Sprint for Service Businesses",
+      "description": "30-day local SEO sprint that gets you into the Google Map Pack for your top 5 services.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Noidea Solutions",
+        "areaServed": [
+          "Sacramento + greater California",
+          "California"
+        ]
+      },
+      "areaServed": [
+        "Sacramento + greater California",
+        "California"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 3500,
+        "priceCurrency": "USD",
+        "description": "$3,500 sprint, then $750/mo (optional retainer)",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+}

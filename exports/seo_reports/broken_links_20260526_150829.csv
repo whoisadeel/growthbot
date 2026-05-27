@@ -1,0 +1,6 @@
+source_url,target_url,kind,status_code,hint,found_at
+https://noidea.solutions/,https://noidea.solutions/another-404,internal,404,Not Found — page no longer exists. Replace or remove.,2026-05-26 15:08:29
+https://noidea.solutions/,https://noidea.solutions/old-page,internal,404,Not Found — page no longer exists. Replace or remove.,2026-05-26 15:08:29
+https://noidea.solutions/blog/seo-tips,https://example.com/gone,external,0,"Connection failed (DNS, SSL, timeout, or blocked).",2026-05-26 15:08:29
+https://noidea.solutions/blog/seo-tips,https://noidea.solutions/missing,internal,410,Gone — page intentionally removed. Replace or remove.,2026-05-26 15:08:29
+https://noidea.solutions/services/seo,https://broken.example/x,external,500,Server error — may be temporary; re-check later.,2026-05-26 15:08:29

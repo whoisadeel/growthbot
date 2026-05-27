@@ -1,0 +1,4 @@
+id,name,email,phone,business_name,service_needed,budget,timeline,status,score,classification,source,created_at
+1,Maria Lopez,maria@bayhillclinic.com,+1-916-555-0101,Bayhill Clinic,Website Redesign + SEO,"$5,000",within 30 days,New,100,hot,contact-form,2026-05-26 13:56:11
+3,Aisha Rahman,aisha@northstarrealty.io,+1-916-555-0144,Northstar Realty,AI Automation for lead routing,$3k,this month,Qualified,100,hot,referral,2026-05-26 13:56:11
+2,John Patel,,,Patel Plumbing,Website Maintenance,,no rush,New,48,cold,csv,2026-05-26 13:56:11
